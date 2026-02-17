@@ -33,7 +33,7 @@
 }
 
 .hero-content{
-  background-image: url(Stray\ cat.jpg);
+  background-image: url(../asset/Stray\ cat.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -169,7 +169,7 @@ p{
 }
 
 .mission{
-  background-image: url(replace.jpg);
+  background-image: url(../asset/replace.jpg);
   height: calc(100vh - 100px);
   background-size: cover;
   background-position: center;
@@ -299,7 +299,7 @@ p{
 }
 
 .hero-two {
-  background-image: url(imagebanner\ 2.jpg);
+  background-image: url(../asset/imagebanner\ 2.jpg);
   height: 650px;
   padding: 20px 20px;
   text-align: center;
@@ -431,7 +431,7 @@ p{
 }
 
 .donation{
-  background-image: url(Banner\ for\ Doantion\ page.jpg);
+  background-image: url(../asset/Banner\ for\ Doantion\ page.jpg);
   height: calc(100vh - 100px);
 }
 
@@ -535,7 +535,7 @@ p{
 }
 
 .awareness {
-  background-image: url(SpreadAwareness.jpg);
+  background-image: url(../asset/SpreadAwareness.jpg);
   background-size: cover;
   height: calc(100vh - 100px);
 }
@@ -601,4 +601,78 @@ p{
   background-color: white;
   opacity: 0.9;
   border-radius: 10px;
+}
+
+.contact  {
+  text-align: center;
+  padding: 50px 20px ;
+  background-color: antiquewhite;
+}
+
+.class p{
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 12px;;
+  margin-bottom: 20px;
+}
+
+form {
+  font-size: 22px;
+  display:grid;
+  padding: 50px 50px;
+  width: 100%;
+  max-width: 500px;  
+  text-align: left;
+  margin: 0 auto;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 20px;
+  border:1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:antiquewhite;
+  color: black;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover{
+  background-color: coral;
+}
+
+.form h3 {
+  text-align: center;
+  background-color: antiquewhite;
+  padding-bottom: 20px;
+  font-size: 25px;
+  background-color: burlywood;
+  padding-top: 20px;
+}
+
+.unorder {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: antiquewhite;
+  padding-bottom: 20px;
+  background-color: burlywood;
+  list-style: none;
+  padding-top: 10px;
 }
